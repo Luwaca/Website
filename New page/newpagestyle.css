@@ -92,6 +92,7 @@ body {
     height: 50px; /* Increase height to make the box bigger */
     background-color: aliceblue;
     border-radius: 50px;
+    margin-bottom: 20px;
 }
 .option-box3 a {
     display: block;
