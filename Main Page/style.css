@@ -9,18 +9,31 @@ body {
     
 }
 
-.form-container {
-    font-size: larger;
-    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
-    font-weight: bold;
+.outer-container{
     width: 100%; /* Make sure the container spans the entire width */
-    max-width: 200px; /* Adjust the maximum width as needed */
+    max-width: 400px; /* Adjust the maximum width as needed */
     margin: 0 auto; /* Center horizontally */
     display: flex;
     flex-direction: column; /* Stack children vertically */
     align-items: center; /* Center vertically */
     justify-content: center; /* Center horizontally */
     height: 98vh
+    
+}
+
+.form-container {
+    font-size: larger;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    border-style:solid;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #b970b9;
+    
+    
+    
 }
 
 input[type="text"],
