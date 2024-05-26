@@ -1,0 +1,88 @@
+/* Example styles for form elements */
+body {
+    background-image: url("background2.png");
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100%;
+        display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+    
+}
+ 
+
+ 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+
+.option-box {
+    border: 5px solid black;
+    padding: 10px; /* Increase padding to make the box bigger */
+    width: 325px; /* Increase width to make the box bigger */
+    height: 50px; /* Increase height to make the box bigger */
+    background-color: aliceblue;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+.option-box a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0); /* Change the color of the text */
+    font-family:'Gill Sans', 'Gill Sans MT' 'Trebuchet MS'; /* Change the font of the text */
+    font-size: 40px; /* Change the size of the text */
+    text-align: center;
+}
+
+
+
+.option-box2 {
+    border: 5px solid black;
+    padding: 10px; /* Increase padding to make the box bigger */
+    width: 325px; /* Increase width to make the box bigger */
+    height: 50px; /* Increase height to make the box bigger */
+    background-color: aliceblue;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+.option-box2 a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0); /* Change the color of the text */
+    font-family:'Gill Sans', 'Gill Sans MT' 'Trebuchet MS'; /* Change the font of the text */
+    font-size: 40px; /* Change the size of the text */
+    text-align: center;
+}
+
+
+
+.option-box3 {
+    border: 5px solid black;
+    padding: 10px; /* Increase padding to make the box bigger */
+    width: 325px; /* Increase width to make the box bigger */
+    height: 50px; /* Increase height to make the box bigger */
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+.option-box3 a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0); /* Change the color of the text */
+    font-family:'Gill Sans', 'Gill Sans MT' 'Trebuchet MS'; /* Change the font of the text */
+    font-size: 40px; /* Change the size of the text */
+    text-align: center;
+}
+

@@ -1,0 +1,48 @@
+/* Example styles for form elements */
+body {
+    background-image: url("background.png");
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100%;
+    
+}
+
+.form-container {
+    font-size: larger;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    width: 100%; /* Make sure the container spans the entire width */
+    max-width: 200px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center horizontally */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    height: 98vh
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #050505;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
